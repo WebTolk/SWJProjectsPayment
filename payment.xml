@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="payment" label="COM_SWJPROJECTS_PAYMENT">
+		<fields name="payment">
+			<field name="payment_plugin_price" type="text"
+				   label="Price"/>
+			<field name="payment_plugin_currency" type="list"
+				   label="Currency">
+				<option value="">Select</option>
+				<option value="USD">USD</option>
+				<option value="RUB">RUB</option>
+			</field>
+		</fields>
+	</fieldset>
+</form>

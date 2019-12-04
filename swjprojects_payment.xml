@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="plugin" group="system" method="upgrade">
+	<name>System - SW JProjects Payment</name>
+	<author>Septdir </author>
+	<creationDate>December 2019</creationDate>
+	<author>Septdir Workshop</author>
+	<creationDate>December 2019</creationDate>
+	<copyright>Copyright (c) 2018 - 2019 Septdir Workshop. All rights reserved.</copyright>
+	<license>https://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>development@septdir.com</authorEmail>
+	<version>0.0.1-dev</version>
+	<description>SW JProjects Payment Plugin</description>
+	<files>
+		<filename plugin="swjprojects_payment">swjprojects_payment.php</filename>
+		<filename>payment.xml</filename>
+		<filename>checkout.php</filename>
+		<filename>success.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+</extension>
